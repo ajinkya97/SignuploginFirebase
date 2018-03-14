@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "216630422275",
+    "firebase_url": "https://myfirebaseauthapp-4e249.firebaseio.com",
+    "project_id": "myfirebaseauthapp-4e249",
+    "storage_bucket": "myfirebaseauthapp-4e249.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216630422275:android:4ece8c47ff04f3cd",
+        "android_client_info": {
+          "package_name": "com.example.aj.careerfair"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216630422275-bh435qhnlnsrn861qc7u0sd5g0654fgg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAon3FHnoTP61pGW47vCYtkNvDB0S7oWV8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

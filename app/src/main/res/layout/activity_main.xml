@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aj.careerfair.MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_centerHorizontal="true"
+       android:layout_centerVertical="true"
+       >
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textAlignment="center"
+           android:text="User Registration"
+           android:textSize="25dp"
+           android:textColor="@color/colorPrimaryDark"
+           />
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/edittextemail"
+           android:inputType="textEmailAddress"
+           android:hint="Enter your email"
+           android:layout_margin="15dp"
+           />
+       
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/edittextpassword"
+           android:inputType="textPassword"
+           android:hint="Enter your password"
+           android:layout_margin="15dp"
+           />
+
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/buttonRegister"
+           android:text="Register user"
+           android:layout_margin="15dp"
+           />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Already Registered? Sign in here"
+           android:id="@+id/textviewSignin"
+           android:textAlignment="center"
+           />
+   </LinearLayout>
+
+</RelativeLayout>
